@@ -27,6 +27,9 @@
     <a class="link">
     </a>
 
+    <div class="container wrapper multiple classes">
+    </div>
+
     <p class='test-single-quote'>
     </p>
 
@@ -43,20 +46,28 @@
 ```
 
 > The classes here are all different to test how well the script is working. Some classes have single quotes, hypens 
-> in the middle, nested classes
+> in the middle, nested classes, and multiple classes
 
 #### Output CSS
 
 ```css
-.helloworld { }
-
 .link { }
 
-.nested-component { }
-
-.nested { }
+.container { }
 
 .test-single-quote { }
 
+.nested { }
+
+.multiple { }
+
+.helloworld { }
+
 .test-twice { }
+
+.nested-component { }
+
+.wrapper { }
+
+.classes { }
 ```
